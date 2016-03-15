@@ -4,12 +4,15 @@ Priority: optional
 Maintainer: Rohan Garg <rohan@kde.org>
 Build-Depends: cmake,
                debhelper (>=9),
+               extra-cmake-modules,
                libkf5i18n-dev,
                libkf5kcmutils-dev,
                libkf5kdelibs4support-dev,
                libkf5networkmanagerqt-dev,
                libkf5solid-dev,
-               pkg-kde-tools
+               libwayland-dev,
+               pkg-kde-tools,
+               qtbase5-dev
 Standards-Version: 3.9.6
 Homepage: https://github.com/netrunner-common-extras/kcm-about-extended
 
